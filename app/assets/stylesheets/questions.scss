@@ -1,0 +1,46 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+$gray: #F4F4F4;
+$blue: #3379B7;
+$yellow: #FFFEE0;
+$gray2: #DDDDDD;
+
+body {
+  background: white; // Using this variable
+  padding: 15px;
+}
+form {
+  width: 100%;
+  margin: 15px;
+}
+#question {
+  width: 340px;
+  height: 35px;
+  border-radius: 4px;
+}
+#submit {
+  background-color: $blue;
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+  width: 135px;
+  height: 35px;
+}
+a {
+  background-color: $blue;
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+  width: 235px;
+  height: 35px;
+}
+.card {
+  border-radius: 4px;
+  border-left: solid 10px $gray2;
+  padding: 15px 5px;
+  margin: 0 15px;
+}
+.coach {
+  background-color: $yellow;
+}
